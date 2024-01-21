@@ -15,7 +15,9 @@ while len(db) != 0:
         print("q means quit.")
         exit()
     print(f"\033[31mA: {a}\033[m")
-    if len(ans) != 0 and ans in a:
+    if ans == a:
+        print(" -- correct!")
+    elif len(ans) != 0 and ans in a:
         print(" -- might be correct!")
     print("-----------")
     del db[q]
