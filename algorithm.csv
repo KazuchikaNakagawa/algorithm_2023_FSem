@@ -136,7 +136,7 @@ AVL木を保つために長くなり過ぎた木を分割して親を根にす�
 重み付きグラフ:weighted graph,
 路:path,
 閉路:cycle,
-単純路:simple path
+単純路:simple path,
 密な:dense,
 疎な:sparse,
 非連結な木の集合:森(forest),
